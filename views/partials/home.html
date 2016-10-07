@@ -1,0 +1,24 @@
+   
+  <div>
+    <table style="float:left; margin-top: 20px; margin-left: 20px">
+      <thead>
+        <th>VIN_ID</th>
+      </thead>
+      <tbody ng-repeat="vindet in allVinDetails track by $index">
+        <tr>
+          <td>{{vindet.VIN_ID}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <table  style="float:left; margin-top: 20px">
+      <thead>
+        <th>CAMPAIGN_ID</th>
+      </thead>
+      <tbody ng-repeat="campdet in allCampDetails track by $index">
+        <tr>
+          <td>{{campdet.CAMPAIGN_ID}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

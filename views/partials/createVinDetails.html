@@ -1,0 +1,40 @@
+
+<body>
+<h3>Create Vin Details</h3>
+<div>
+	<form name="createVinDetForm">
+		<div class="form-group">
+			<label>VIN_ID:</label>
+			<input type="text" ng-model="vin.vinId">
+			<span ng-show="errorName">{{errorName}}</span>
+		</div>
+		<div class="form-group">
+			<label>MODEL_ID:</label>
+			<input type="text" ng-model="vin.modelId">
+			<span ng-show="errorName">{{errorName}}</span>
+		</div>
+		<div class="form-group">
+			<label>CAMPAIGN_ID:</label>
+			<input type="text" ng-model="vin.campaignId">
+			<span ng-show="errorName">{{errorName}}</span>
+		</div>
+
+		<div class="form-group">
+			<label>VIN_CAMPAIGN_STATUS:</label>
+			<input type="text" ng-model="vin.vinCampStatus">
+			<span ng-show="errorName">{{errorName}}</span>
+		</div>
+		<div class="form-group">
+			<label>VIN_STAT_CD:</label>
+			<input type="text" ng-model="vin.vinStatCd">
+			<span ng-show="errorName">{{errorName}}</span>
+		</div>
+		<div class="form-group">
+			<label>MODEL_TYPE_CD:</label>
+			<input type="text" ng-model="vin.modelTypeCd">
+			<span ng-show="errorName">{{errorName}}</span>
+		</div>
+		<button type="button" ng-click="createVinDetails()">Create Vin</button>
+	</form>
+</div>
+</body>

@@ -1,0 +1,14 @@
+[2016-10-07 18:50:07.409] [TRACE] app - creating Vin Details
+[2016-10-07 18:50:07.411] [TRACE] app - { vinId: 'retryti',
+  modelId: 'cvnvmbgl',
+  campaignId: 'vmgklghl',
+  vinCampStatus: 'fmgklgyo',
+  vinStatCd: 'fkri459fm',
+  modelTypeCd: 'fmr94fkf' }
+[2016-10-07 18:54:41.211] [TRACE] app - creating Vin Details
+[2016-10-07 18:54:41.213] [TRACE] app - { vinId: '563',
+  modelId: 'weriuyiuoy',
+  campaignId: 'dflkgjsdlfkj',
+  vinCampStatus: 'dsflsjl;kj',
+  vinStatCd: 'dflk;gjsdflk;gj',
+  modelTypeCd: 'sdfkjghsdfkjh' }
